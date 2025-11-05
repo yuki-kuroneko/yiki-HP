@@ -9,16 +9,15 @@ body {
 
 /* ロゴのスタイル（ブロック化して縦揃え安定）*/
 .logo {
-    position: absolute;
-    top: 53px;        /* 上から50px */
-    margin-left: 300px; /* 右に移動 */   
-    display: block;
-    width: 70px;
-    height: auto;
-    transform: rotate(-90deg); /* 向きが逆なら rotate(90deg) に変更 */
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  display: block;
+  width: 70px;
+  height: auto;
+  transform: rotate(-90deg);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  margin: 40px auto 20px auto; /* 上下の余白＋中央揃え */
 }
+
 .logo-title {
     background-color: rgba(255, 255, 255, 0.8); /* 白＋透明感 */
   padding: 20px;
@@ -105,4 +104,16 @@ body {
 .symbol {
   font-family: 'Arial', sans-serif; /* 記号用に別フォントを指定 */
   margin-right: 6px;                /* 少し余白を入れて読みやすく */
+}
+
+@media screen and (max-width: 600px) {
+  .link-row {
+    flex-direction: column;  /* 縦並びに変更 */
+    align-items: center;     /* 中央揃え */
+  }
+
+  .cooking-link,
+  .note-link {
+    margin-top: 10px;
+  }
 }
