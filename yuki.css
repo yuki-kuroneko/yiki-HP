@@ -85,6 +85,41 @@ body {
     text-decoration: none; /* 下線を消したい場合 */
 }
 
+.diy-link {
+  text-align: center;
+  font-family: 'KTEGAKI', sans-serif;
+  font-size: 32px;
+  margin-top: 10px;
+  animation: fadeIn 2s ease-in-out;
+
+}
+
+.diy-link a {
+    background-color: rgba(255, 255, 255, 0.8); /* 白＋透明感 */
+    padding: 20px;
+    border-radius: 12px;
+    color: #ff8c00;
+    text-decoration: none; /* 下線を消したい場合 */
+}
+
+.ai-blender-link {
+  text-align: center;
+  font-family: 'KTEGAKI', sans-serif;
+  font-size: 32px;
+  margin-top: 10px;
+  animation: fadeIn 2s ease-in-out;
+
+}
+
+.ai-blender-link a {
+    background-color: rgba(255, 255, 255, 0.8); /* 白＋透明感 */
+    padding: 20px;
+    border-radius: 12px;
+    color: #ff8c00;
+    text-decoration: none; /* 下線を消したい場合 */
+}
+
+
 .note-link {
   text-align: center;
   font-family: 'KTEGAKI', sans-serif;
